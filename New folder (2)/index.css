@@ -1,0 +1,138 @@
+.images-1-icon {
+  height: 157px;
+  width: 163px;
+  position: relative;
+  border-radius: 200px;
+  object-fit: cover;
+}
+.content {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 22px 0 var(--padding-xl);
+}
+.hello-alex1 {
+  color: #d200f4;
+}
+.hello-alex,
+.how-can-i {
+  margin: 0;
+}
+.hello-alex-container {
+  margin: 0;
+  align-self: stretch;
+  height: 127px;
+  position: relative;
+  font-size: inherit;
+  line-height: 52px;
+  display: inline-block;
+  font-style: italic;
+  font-weight: 500;
+  font-family: inherit;
+  flex-shrink: 0;
+}
+.main-container {
+  width: 417px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 54px;
+  max-width: 100%;
+}
+.enter-your-message {
+  border: 0;
+  outline: 0;
+  font-family: var(--font-aclonica);
+  font-size: 16px;
+  background-color: transparent;
+  height: 53px;
+  width: 313px;
+  position: relative;
+  letter-spacing: 2px;
+  line-height: 55px;
+  color: #000;
+  text-align: left;
+  display: inline-block;
+  flex-shrink: 0;
+  padding: 0;
+}
+.send-icon {
+  width: 41px;
+  height: 34px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.send-button-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 9.5px 0 0;
+}
+.message-input {
+  flex: 1;
+  border-radius: 20px;
+  background-color: #88006a;
+  overflow: hidden;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 5px 6px;
+  gap: 10px;
+  max-width: 100%;
+}
+.main,
+.message-input,
+.message-input-wrapper {
+  display: flex;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.message-input-wrapper {
+  width: 418px;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 12px 0 11px;
+  max-width: 100%;
+}
+.main {
+  width: 100%;
+  position: relative;
+  background-color: #4d0c3f;
+  overflow: hidden;
+  flex-direction: column;
+  align-items: center;
+  padding: 238px var(--padding-xl) 96px;
+  gap: 289px;
+  letter-spacing: normal;
+  line-height: normal;
+  text-align: center;
+  font-size: 48px;
+  color: var(--color-snow);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 750px) {
+  .hello-alex-container {
+    font-size: 38px;
+    line-height: 42px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .hello-alex-container {
+    font-size: 29px;
+    line-height: 31px;
+  }
+  .main-container {
+    gap: 27px;
+  }
+  .message-input {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .main {
+    gap: 144px;
+  }
+}

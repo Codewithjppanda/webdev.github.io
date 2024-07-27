@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-aclonica: Aclonica;
+  --font-inter: Inter;
+
+  /* Colors */
+  --color-snow: #fff7f7;
+
+  /* Paddings */
+  --padding-xl: 20px;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+  <link rel="stylesheet" href="./global.css" />
+  <link rel="stylesheet" href="./index.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@1,500&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Aclonica:wght@400&display=swap" />
+</head>
+
+<body>
+  <div class="main">
+    <div class="main-container">
+      <div class="content">
+        <img class="images-1-icon" loading="lazy" alt="" src="./public/images-1@2x.png" />
+      </div>
+      <h1 class="hello-alex-container">
+        <p class="hello-alex">
+          <span class="hello-alex1">Hello Alex !</span>
+          <span> </span>
+        </p>
+        <p class="how-can-i">how can i help you today ?</p>
+      </h1>
+    </div>
+    <div class="message-input-wrapper">
+      <div class="message-input">
+        <input class="enter-your-message" id="messageInput" placeholder="Enter Your Text here!" type="text" />
+
+        <div class="send-button-container" id="sendButton">
+          <img class="send-icon" loading="lazy" alt="" src="./public/send.svg" />
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+<script>
+  document.getElementById('sendButton').addEventListener('click', function() {
+    const message = document.getElementById('messageInput').value;
+    alert('Message sent: ' + message);
+  });
+</script>
+</html>
